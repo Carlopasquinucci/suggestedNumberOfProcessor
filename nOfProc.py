@@ -2,6 +2,9 @@
 # created by Carlo Pasquinucci - carlo.a.pasquinucci@gmail.com
 # relesead under license GPL GNU 3
 
+# How to run it: python oOfProc.py numberOfCells
+# Return: the number of processors required
+
 import sys
 
 narg=len(sys.argv)
