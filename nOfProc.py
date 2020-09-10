@@ -4,6 +4,7 @@
 
 # How to run it: python oOfProc.py numberOfCells
 # Return: the number of processors required
+# Nice to use with checkQualityMesh.py
 
 import sys
 
