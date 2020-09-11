@@ -35,5 +35,5 @@ if sys.argv[2]==-decomposeFile:
        os.makedirs('my_folder')
     f = open("system/decomposeParDict", "w")
     f.write("numberOfSubdomains "+str(nProcessor)+" ;")
-    f.write("method scotch")
+    f.write("method scotch;")
     f.close()
