@@ -31,8 +31,8 @@ nProcessor=int(nProcessorAux)
 if sys.argv[2]==-decomposeFile:
  #check if the system folder exist:
     import os
-    if not os.path.exists('my_folder'):
-       os.makedirs('my_folder')
+    if not os.path.exists('system'):
+       os.makedirs('system')
     f = open("system/decomposeParDict", "w")
     f.write("numberOfSubdomains "+str(nProcessor)+" ;")
     f.write("method scotch;")
